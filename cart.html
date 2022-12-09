@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Wish Bin</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <a href="#"><img src="img/logo.png" alt="img" class="logo"></a>
+        <div class="navbar">
+            <ul id="navbar-item">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="bag"><a  class="active" href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
+                <a href="#" id="arrow"><i class="fa fa-arrow-right"></i></a>
+            </ul>
+        </div>
+        <div class="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <i id="bar" class="fa fa-outdent"></i>
+        </div>
+    </header>
+
+    <section id="contact-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE. We love to hear from you!</p>
+    </section>
+
+    <section id="cart-table" class="section-p1">
+        <table>
+            <thead>
+                <tr>
+                    <td>remove</td>
+                    <td>image</td>
+                    <td>product</td>
+                    <td>price</td>
+                    <td>quantity</td>
+                    <td>subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt="img"></td>
+                    <td>cartoon astronaut t-shirts</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.9</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt="img"></td>
+                    <td>cartoon astronaut t-shirts</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.9</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt="img"></td>
+                    <td>cartoon astronaut t-shirts</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.9</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+    <section id="add-coupon">
+        <div class="coupon-side">   
+            <h3>apply coupon</h3>
+            <div class="input-coupon">
+                <input type="text" placeholder="enter your coupon">
+                <button class="normal">apply</button>
+            </div>
+        </div>
+        <div class="cart-total">
+            <h3>cart totals</h3>
+            <table>
+                <tr>
+                    <td>cart subtotal</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>shipping</td>
+                    <td>free</td>
+                </tr>
+                <tr>
+                    <td>total</td>
+                    <td>$335</td>
+                </tr>
+            </table>
+            <button class="normal">proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-desc">
+            <div class="col1">
+                <a href="#"><img src="img/logo.png" alt=""></a>
+                <h4>contact</h4>
+                <p><strong>Address:</strong> alhamra town,raiwind road,lahore</p>
+                <p><strong>Phone:</strong> +(92)345000015/(+92)355000078</p>
+                <p><strong>Hours:</strong>10:00 - 18:00 . mon-sat</p>
+                <h4>follow us</h4>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="col2">
+                <h4>about</h4>
+                <a href="">about us</a>
+                <a href="">delivery information</a>
+                <a href="">privacy policy</a>
+                <a href="">terms & conditions</a>
+                <a href="">contact us</a>
+            </div>
+            <div class="col2">
+                <h4>my account</h4>
+                <a href="">sign in</a>
+                <a href="">view cart</a>
+                <a href="">my wishlist</a>
+                <a href="">track my order</a>
+                <a href="">help</a>
+            </div>
+            <div class="col3">
+                <h4>install app</h4>
+                <p>from app store or google</p>
+                <img class="link-img" src="img/pay/play.jpg" alt="img">
+                <img class="link-img" src="img/pay/app.jpg" alt="img">
+                <p>secured payment gateways</p>
+                <img class="pay-img" src="img/pay/pay.png" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>created by ARvirk <span>&copy;</span> 2022</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
